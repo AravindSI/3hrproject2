@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3hrs project on js</title>
+</head>
+<body>
+
+    <form onsubmit="saveToLocalStorage(event)">
+        <label for="Choose expense amount">Choose expense amount:</label>
+        <input type="text" id="Choose expense amount" name="Chooseexpenseamount">
+        <label for="choose description">choose description:</label>
+        <input type="text" id="choose description" name="choosedescription">
+        <label for="choose a category">choose a category:</label>
+        <input type="text" id="choose a category" name="chooseacategory">
+        <input type="submit" value="Add Expense">
+      </form>
+      <ul id="listOfExpenses"></ul>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="project.js"></script>
+
+</body>
+</html>
